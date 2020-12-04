@@ -1,6 +1,6 @@
 import React from "react";
 import { Phone, Mail, MapPin } from "react-feather"
-import Image from '../../static/assets/image/speacial.jpg'
+import Image from '../../static/assets/image/speacialChange.jpg'
 
 function Contact () {
   return (
