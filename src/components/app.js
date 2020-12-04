@@ -15,11 +15,11 @@ function App () {
       <div className= "App">
         <Nav />
         <Switch>
-           <Route path= '/Menu' exact component= {Menu}/>
+           <Route path= '/menu' exact component= {Menu}/>
            <Route path='/signin' exact component={SignIn}/>       
            <Route path='/signup' exact component={SignUp}/>
            <Route path='/contact' exact component={Contact}/>
-           <Route path='/Cart' component= {Cart}/>
+           <Route path='/cart' component= {Cart}/>
            
 
 
