@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './nav';
-import Menu from './menu';
+import Menu from './somethingElse';
 import Cart from './cart';
 import SignIn from './auth/signin';
 import SignUp from './auth/signup';
@@ -32,63 +32,5 @@ function App () {
 
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from "react"
-
-// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-// // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// function App() {
-//   return(
-   
-//     <Router>
-//     <div className= 'App'>
-      
-//       <Nav/>
-//       <switch> 
-//        <Route path= '/Menu' exact component= {Menu}/>
-//        <Route path= "/Order" exact component= {Order}/>
-//        <Route path= '/Specials' exact component= {Specials}/>
-//        <Route path='/signin' exact component={Signin}/>
-//        <Route path='/signup' exact component={Signup}/>
-
-//      </switch>
-//      </div>
-//   </Router>
-//  );
- 
-// }
 
 
