@@ -1,6 +1,6 @@
 import React, {useState } from "react";
-import Products from './products';
-import Cart from './cart';
+import Products from './productsChange';
+import Cart from './cartChange';
 
 const PAGE_PRODUCTS = "products";
 const PAGE_CART='cart';

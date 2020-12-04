@@ -1,10 +1,10 @@
 import React from 'react';
-import Nav from './nav';
+import Nav from './navChange';
 import Menu from './somethingElse';
-import Cart from './cart';
-import SignIn from './auth/signin';
-import SignUp from './auth/signup';
-import Contact from './contact';
+import Cart from './cartChange';
+import SignIn from './auth/signinChange';
+import SignUp from './auth/signupChange';
+import Contact from './contactChange';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
