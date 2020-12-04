@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-import Products from './Products';
+import Products from './products';
 import Cart from './cart';
 
 const PAGE_PRODUCTS = "products";

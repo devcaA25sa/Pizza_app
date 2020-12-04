@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../static/assets/image/PizzaMan.png';
+import Logo from '../../static/assets/image/pizzaMan.png';
 
 function Nav() {
      const navstyle ={
