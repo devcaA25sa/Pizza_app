@@ -1,10 +1,10 @@
 import React from 'react';
 import Nav from './navChange';
 import Menu from './somethingElse';
-import Admin from './auth/admin';
+import Admin from './auth/adminChange';
 import logout from './auth/logout';
 import Cart from './cartChange';
-import login from './auth/Login';
+import login from './auth/loginChange';
 import About from './auth/about';
 import Contact from './contactChange';
 
