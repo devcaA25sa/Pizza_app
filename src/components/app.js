@@ -1,12 +1,15 @@
 import React from 'react';
 import Nav from './navChange';
 import Menu from './somethingElse';
+import Admin from './auth/admin';
+import logout from './auth/logout';
 import Cart from './cartChange';
-import SignIn from './auth/signinChange';
-import SignUp from './auth/signupChange';
+import login from './auth/Login';
+import About from './auth/about';
 import Contact from './contactChange';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 
 
 function App () {
@@ -16,9 +19,11 @@ function App () {
         <Nav />
         <Switch>
            <Route path= '/menu' exact component= {Menu}/>
-           <Route path='/signin' exact component={SignIn}/>       
-           <Route path='/signup' exact component={SignUp}/>
-           <Route path='/contact' exact component={Contact}/>
+           <Route path='/about' exact component={About}/>
+           <Route path='/login' component={login}/>
+           <Route path='/contact' component={Contact}/>
+           <Route Path='/logout'exact component={logout} />
+           <Route path='/admin' component={Admin}/>
            <Route path='/cart' component= {Cart}/>
            
 

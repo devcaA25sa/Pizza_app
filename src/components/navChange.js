@@ -23,13 +23,13 @@ function Nav() {
             <li>Contact</li>
                 </Link>
                     
-          <Link style= {navstyle} to= '/Signin'>
-            <li>SignIn</li>
+          <Link style= {navstyle} to= '/Login'>
+            <li>login</li>
            </Link>
                    
                     
-          <Link style= {navstyle} to= "/signup">
-             <li>SignUp</li>
+          <Link style= {navstyle} to= "/about">
+             <li>About</li>
             </Link>
                     
                           
